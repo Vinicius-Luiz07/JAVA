@@ -1,7 +1,12 @@
 package com.POO;
 
+import com.POO.Calculadora_POO.Calculadora;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        
+        Calculadora calculadora = new Calculadora(); 
+
+        System.out.println(calculadora);
     }
 }
