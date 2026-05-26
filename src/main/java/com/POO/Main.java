@@ -1,5 +1,6 @@
 package com.POO;
 
+import java.util.Scanner;
 import com.POO.Calculadora_POO.Calculadora;
 import com.POO.Converter_Temperatura_POO.ConverterTemperatura;
 import com.POO.Regras_de_voto.ValidadorDeVoto;
@@ -9,28 +10,42 @@ import com.POO.Soma_de_Numeros_Pares.SDNP;
 public class Main {
     public static void main(String[] args) {
         
-        Calculadora calculadora = new Calculadora(); 
-        System.out.println(calculadora);
+        Scanner leia = new Scanner(System.in);
+        int escolha = 6; // SWITCH CASE
 
-        /* .:|====== && =====|:.*/
+        do {
 
-        ConverterTemperatura conversor = new ConverterTemperatura();
-        System.out.println(conversor);
+        System.out.println("================== PROGRAMAS ==================");
+        System.out.println("1 = Calculadora\n2 = Conversor\n3 = Validador\n4 = Tabuada\n5 = Soma dos números pares\n6 = Sair");
+        escolha = leia.nextInt();
 
-        /* .:|====== && =====|:.*/
-
-        ValidadorDeVoto validador = new ValidadorDeVoto();
-        System.out.println(validador);
-
-        /* .:|====== && =====|:.*/
-
-        Tabuada tabuada = new Tabuada();
-        System.out.println(tabuada);
-
-        /* .:|====== && =====|:.*/
-
-        SDNP sdnp = new SDNP();
-        System.out.println(sdnp.calcularSoma());
-
+        switch (escolha) {
+            case 1:
+                Calculadora calculadora = new Calculadora();
+                System.out.println(calculadora);
+                break;
+            case 2:
+                ConverterTemperatura conversor = new ConverterTemperatura();
+                System.out.println(conversor);
+                break;
+            case 3:
+                ValidadorDeVoto validador = new ValidadorDeVoto();
+                System.out.println(validador);
+                break;
+            case 4:
+                Tabuada tabuada = new Tabuada();
+                System.out.println(tabuada);
+                break;
+            case 5:
+                SDNP sdnp = new SDNP();
+                System.out.println(sdnp.calcularSoma());
+                break;
+            case 6:
+                break;
+            default:
+                System.out.println("Programa não encontrado");
+                break;
+            }
+       } while (escolha != 6);
     }
 }
