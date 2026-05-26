@@ -4,6 +4,7 @@ import com.POO.Calculadora_POO.Calculadora;
 import com.POO.Converter_Temperatura_POO.ConverterTemperatura;
 import com.POO.Regras_de_voto.ValidadorDeVoto;
 import com.POO.Tabuada_POO.Tabuada;
+import com.POO.Soma_de_Numeros_Pares.SDNP;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +26,11 @@ public class Main {
 
         Tabuada tabuada = new Tabuada();
         System.out.println(tabuada);
+
+        /* .:|====== && =====|:.*/
+
+        SDNP sdnp = new SDNP();
+        System.out.println(sdnp.calcularSoma());
 
     }
 }
