@@ -13,7 +13,7 @@ public class ConverterTemperatura extends Getter_And_Setters {
         do { /*-> REPETIR O MENU DE ESCOLHA */
 
             System.out.println(".:|===========> C O N V E R T O R <==========|:.");
-            System.out.println("1 = Celsius -> Fahrenheit\n2 = Fahrenheit -> Celsius");
+            System.out.println("1 = Celsius -> Fahrenheit\n2 = Fahrenheit -> Celsius\n3 = Sair");
             escolha = leia.nextInt();
             
             switch (escolha) {
