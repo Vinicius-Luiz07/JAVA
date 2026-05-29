@@ -2,6 +2,7 @@ package com.POO;
 
 import java.util.Scanner;
 import com.POO.Calculadora_POO.Calculadora;
+import com.POO.Contador_Regressivo.ContadorRegressivo;
 import com.POO.Converter_Temperatura_POO.ConverterTemperatura;
 import com.POO.Regras_de_voto.ValidadorDeVoto;
 import com.POO.Tabuada_POO.Tabuada;
@@ -11,12 +12,12 @@ public class Main {
     public static void main(String[] args) {
         
         Scanner leia = new Scanner(System.in);
-        int escolha = 6; // SWITCH CASE
+        int escolha = 7; // SWITCH CASE
 
         do {
 
         System.out.println("================== PROGRAMAS ==================");
-        System.out.println("1 = Calculadora\n2 = Conversor\n3 = Validador\n4 = Tabuada\n5 = Soma dos números pares\n6 = Sair");
+        System.out.println("1 = Calculadora\n2 = Conversor\n3 = Validador\n4 = Tabuada\n5 = Soma dos números pares\n6 = Contador Regressivo\n7 = Sair");
         escolha = leia.nextInt();
 
         switch (escolha) {
@@ -41,11 +42,15 @@ public class Main {
                 System.out.println(sdnp.calcularSoma());
                 break;
             case 6:
+                ContadorRegressivo contador = new ContadorRegressivo();
+                System.out.println(contador);
+                break;
+            case 7:
                 break;
             default:
                 System.out.println("Programa não encontrado");
                 break;
             }
-       } while (escolha != 6);
+       } while (escolha != 7);
     }
 }
