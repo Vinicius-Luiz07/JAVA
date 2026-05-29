@@ -1,4 +1,4 @@
-# 🚀 Projetos Simples em Java
+# Projetos Simples em Java
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -7,7 +7,7 @@ Repositório com diversos **projetos simples em Java** focados em **aprendizado*
 
 ---
 
-## 📌 Sobre o Repositório
+## Sobre o Repositório
 
 Este repositório contém pequenos projetos em Java desenvolvidos para consolidar conceitos fundamentais da linguagem, como:
 
@@ -21,7 +21,7 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Java** (JDK 17 ou superior) -> **TODOS** os algoritmos foram codados na versão 26.
 - **Eclipse** / **IntelliJ IDEA** / **VS Code**
@@ -29,7 +29,7 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 
 ---
 
-## 📂 Projetos Disponíveis
+## Projetos Disponíveis
 
 | Nº | Projeto                        | Tema Principal                  | Status     |
 |----|--------------------------------|----------------------------------|----------|
@@ -41,10 +41,10 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 | 06 | Tabuada Simples               | Lógica + Métodos + Switch       | ✅ Concluído |
 | 07 | Conversor de temperatura      | Lógica + POO + Switch           | ✅ Concluído |
 | 08 | Operador Ternário             | Condicional Simplificada        | ✅ Concluído |
-
+| 09 | Contador Regressivo           | Lógica, Timer + Clear logs      | ✅ Concluído |
 ---
 
-## ▶️ Como Executar um Projeto
+## Como Executar um Projeto
 
 1. Clone o repositório:
    ```bash
