@@ -33,15 +33,16 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 
 | Nº | Projeto                        | Tema Principal                  | Status     |
 |----|--------------------------------|----------------------------------|----------|
-| 01 | Soma de Números Pares         | Lógica + POO + Fórmulas         | ✅ Concluído |
-| 02 | Calculadora Simples           | Classes, Métodos e Switch       | ✅ Concluído |
-| 03 | Impar ou Par                  | Lógica e Condicional            | ✅ Concluído |
-| 04 | Maior número entre 3 valores  | Lógica + Multivalores           | ✅ Concluído |
-| 05 | Regras de Eleitor             | Métodos, POO e Validação        | ✅ Concluído |
-| 06 | Tabuada Simples               | Lógica + Métodos + Switch       | ✅ Concluído |
-| 07 | Conversor de temperatura      | Lógica + POO + Switch           | ✅ Concluído |
-| 08 | Operador Ternário             | Condicional Simplificada        | ✅ Concluído |
-| 09 | Contador Regressivo           | Lógica, Timer + Clear logs      | ✅ Concluído |
+| 01 | Soma de Números Pares         | Lógica + POO + Fórmulas         | 🟢 Concluído |
+| 02 | Calculadora Simples           | Classes, Métodos e Switch       | 🟢 Concluído |
+| 03 | Impar ou Par                  | Lógica e Condicional            | 🟢 Concluído |
+| 04 | Maior número entre 3 valores  | Lógica + Multivalores           | 🟢 Concluído |
+| 05 | Regras de Eleitor             | Métodos, POO e Validação        | 🟢 Concluído |
+| 06 | Tabuada Simples               | Lógica + Métodos + Switch       | 🟢 Concluído |
+| 07 | Conversor de temperatura      | Lógica + POO + Switch           | 🟢 Concluído |
+| 08 | Operador Ternário             | Condicional Simplificada        | 🟢 Concluído |
+| 09 | Contador Regressivo           | Lógica, Timer + Clear logs      | 🟢 Concluído |
+| 10 | Fatorial                      | Função recursiva + Fatorial     | 🟠 Em Andamento |
 ---
 
 ## Como Executar um Projeto
