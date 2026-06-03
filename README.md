@@ -42,7 +42,7 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 | 07 | Conversor de temperatura      | Lógica + POO + Switch           | 🟢 Concluído |
 | 08 | Operador Ternário             | Condicional Simplificada        | 🟢 Concluído |
 | 09 | Contador Regressivo           | Lógica, Timer + Clear logs      | 🟢 Concluído |
-| 10 | Fatorial                      | Função recursiva + Fatorial     | 🟠 Em Andamento |
+| 10 | Fatorial                      | Função recursiva + Fatorial     | 🟢 Concluído |
 ---
 
 ## Como Executar um Projeto
