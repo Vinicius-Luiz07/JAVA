@@ -1,26 +1,19 @@
 package com.POO.Fatorial;
 
-import java.util.Scanner;
-
 public class Fatorial {
 
-    Scanner leia = new Scanner(System.in);
-    int valor;
+    // Nessa classe fica toda a lógica do algoritmo de fatorial
 
-    public Fatorial() {
-
-        do{ // repete o processo
-            System.out.println("Digite um valor >= 0: ");
-            valor = leia.nextInt();
-            
-        } while (valor < 0) ; // se o valor for 0 || < 0 vai parar o código
-
-        long Fatorial = 1; // Usa long para evitar estouro de memória em números maiores (diferente de int q guarda valores menores)
-        for (int i = valor; i > 1; i++) {
-            Fatorial *= valor;
+    public long calculo(int n) {
+        
+        if(n < 0){
+            throw new IllegalArgumentException("número negativo não possuí fatorial");
         }
-        System.out.println("O fatorial de " + valor + " é: " + Fatorial);
 
-        // PROJETO IMCOMPLETO
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+        
+        return n *= calculo(n - 1);
     }
 }
