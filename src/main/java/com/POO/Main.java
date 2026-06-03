@@ -1,9 +1,11 @@
 package com.POO;
 
 import java.util.Scanner;
+
 import com.POO.Calculadora_POO.Calculadora;
 import com.POO.Contador_Regressivo.ContadorRegressivo;
 import com.POO.Converter_Temperatura_POO.ConverterTemperatura;
+import com.POO.Fatorial.Fatorial_Scanner;
 import com.POO.Regras_de_voto.ValidadorDeVoto;
 import com.POO.Tabuada_POO.Tabuada;
 import com.POO.Soma_de_Numeros_Pares.SDNP;
@@ -12,12 +14,21 @@ public class Main {
     public static void main(String[] args) {
         
         Scanner leia = new Scanner(System.in);
-        int escolha = 7; // SWITCH CASE
+        int escolha = 8; // SWITCH CASE
 
         do {
 
         System.out.println("================== PROGRAMAS ==================");
-        System.out.println("1 = Calculadora\n2 = Conversor\n3 = Validador\n4 = Tabuada\n5 = Soma dos números pares\n6 = Contador Regressivo\n7 = Sair");
+        System.out.println("""
+            1 = Calculadora 
+            2 = Conversor 
+            3 = Validador
+            4 = Tabuada
+            5 = Soma dos números pares 
+            6 = Contador Regressivo 
+            7 = Fatorial
+            8 = Sair
+            """); // Esse sistema de quebra de linhas funciona apenas no java 15+
         escolha = leia.nextInt();
 
         switch (escolha) {
@@ -46,11 +57,15 @@ public class Main {
                 System.out.println(contador);
                 break;
             case 7:
+                Fatorial_Scanner Fatorial = new Fatorial_Scanner();
+                Fatorial.CalcularFatorial();
+                break;
+            case 8:
                 break;
             default:
                 System.out.println("Programa não encontrado");
                 break;
             }
-       } while (escolha != 7);
+       } while (escolha != 8);
     }
 }
