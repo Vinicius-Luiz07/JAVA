@@ -6,6 +6,7 @@ import com.POO.Calculadora_POO.Calculadora;
 import com.POO.Contador_Regressivo.ContadorRegressivo;
 import com.POO.Converter_Temperatura_POO.ConverterTemperatura;
 import com.POO.Fatorial.Fatorial_Scanner;
+import com.POO.Numeros_Primos.Numeros_Primos;
 import com.POO.Regras_de_voto.ValidadorDeVoto;
 import com.POO.Tabuada_POO.Tabuada;
 import com.POO.Soma_de_Numeros_Pares.SDNP;
@@ -14,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         
         Scanner leia = new Scanner(System.in);
-        int escolha = 8; // SWITCH CASE
+        int escolha = 9; // SWITCH CASE
 
         do {
 
@@ -27,7 +28,8 @@ public class Main {
             5 = Soma dos números pares 
             6 = Contador Regressivo 
             7 = Fatorial
-            8 = Sair
+            8 = Numeros primos
+            9 = Sair
             """); // Esse sistema de quebra de linhas funciona apenas no java 15+
         escolha = leia.nextInt();
 
@@ -61,11 +63,15 @@ public class Main {
                 Fatorial.CalcularFatorial();
                 break;
             case 8:
+            	Numeros_Primos primos = new Numeros_Primos();
+        		primos.calculo();
                 break;
+            case 9:
+            	break;
             default:
                 System.out.println("Programa não encontrado");
                 break;
             }
-       } while (escolha != 8);
+       } while (escolha != 9);
     }
 }
