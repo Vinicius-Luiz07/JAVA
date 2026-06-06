@@ -44,6 +44,7 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 | 09 | Contador Regressivo           | Lógica, Timer + Clear logs      | 🟢 Concluído |
 | 10 | Fatorial                      | Função recursiva + Fatorial     | 🟢 Concluído |
 | 11 | Números Primos                | Eficiencia + Lógica     		   | 🟢 Concluído |
+| 12 | Array                         | Array + Lógica     		       | 🟢 Concluído |
 ---
 
 ## Como Executar um Projeto
