@@ -2,6 +2,7 @@ package com.POO;
 
 import java.util.Scanner;
 
+import com.POO.Array.Array;
 import com.POO.Calculadora_POO.Calculadora;
 import com.POO.Contador_Regressivo.ContadorRegressivo;
 import com.POO.Converter_Temperatura_POO.ConverterTemperatura;
@@ -15,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
         
         Scanner leia = new Scanner(System.in);
-        int escolha = 9; // SWITCH CASE
+        int escolha = 10; // SWITCH CASE
 
         do {
 
@@ -29,7 +30,8 @@ public class Main {
             6 = Contador Regressivo 
             7 = Fatorial
             8 = Numeros primos
-            9 = Sair
+            9 = Array
+            10 = Sair
             """); // Esse sistema de quebra de linhas funciona apenas no java 15+
         escolha = leia.nextInt();
 
@@ -67,11 +69,15 @@ public class Main {
         		primos.calculo();
                 break;
             case 9:
+            	Array array = new Array();
+            	System.out.println(array);
+            	break;
+            case 10:
             	break;
             default:
                 System.out.println("Programa não encontrado");
                 break;
             }
-       } while (escolha != 9);
+       } while (escolha != 10);
     }
 }
