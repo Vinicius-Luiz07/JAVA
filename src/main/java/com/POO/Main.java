@@ -11,12 +11,13 @@ import com.POO.Numeros_Primos.Numeros_Primos;
 import com.POO.Regras_de_voto.ValidadorDeVoto;
 import com.POO.Tabuada_POO.Tabuada;
 import com.POO.Soma_de_Numeros_Pares.SDNP;
+import com.POO.MediaDeNotas.MediaDeNotas;
 
 public class Main {
     public static void main(String[] args) {
         
         Scanner leia = new Scanner(System.in);
-        int escolha = 10; // SWITCH CASE
+        int escolha = 11; // SWITCH CASE
 
         do {
 
@@ -31,7 +32,8 @@ public class Main {
             7 = Fatorial
             8 = Numeros primos
             9 = Array
-            10 = Sair
+            10 = Media de notas
+            11 = Sair
             """); // Esse sistema de quebra de linhas funciona apenas no java 15+
         escolha = leia.nextInt();
 
@@ -73,11 +75,15 @@ public class Main {
             	System.out.println(array);
             	break;
             case 10:
+            	MediaDeNotas media = new MediaDeNotas();
+            	System.out.println(media);
+            	break;
+            case 11:
             	break;
             default:
                 System.out.println("Programa não encontrado");
                 break;
             }
-       } while (escolha != 10);
+       } while (escolha != 11);
     }
 }
