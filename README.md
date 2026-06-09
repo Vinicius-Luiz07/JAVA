@@ -17,7 +17,7 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 - Uso de classes, construtores, getters e setters
 - Estruturas de repetição e condicionais
 
-**Objetivo:** Facilitar o aprendizado e servir como portfólio inicial de Java.
+**Objetivo:** Facilitar o aprendizado, disciplina e servir como portfólio inicial de Java.
 
 ---
 
@@ -45,6 +45,7 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 | 10 | Fatorial                      | Função recursiva + Fatorial     | 🟢 Concluído |
 | 11 | Números Primos                | Eficiencia + Lógica     		   | 🟢 Concluído |
 | 12 | Array                         | Array + Lógica     		       | 🟢 Concluído |
+| 12 | Média de Notas                | Array, POO e Lógica		       | 🟢 Concluído |
 ---
 
 ## Como Executar um Projeto
