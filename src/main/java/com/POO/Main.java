@@ -12,28 +12,30 @@ import com.POO.Regras_de_voto.ValidadorDeVoto;
 import com.POO.Tabuada_POO.Tabuada;
 import com.POO.Soma_de_Numeros_Pares.SDNP;
 import com.POO.MediaDeNotas.MediaDeNotas;
+import com.POO.ArrayPares.ArrayPares;
 
 public class Main {
     public static void main(String[] args) {
         
         Scanner leia = new Scanner(System.in);
-        int escolha = 11; // SWITCH CASE
+        int escolha = 12; // SWITCH CASE
 
         do {
 
         System.out.println("================== PROGRAMAS ==================");
         System.out.println("""
-            1 = Calculadora 
-            2 = Conversor 
-            3 = Validador
-            4 = Tabuada
-            5 = Soma dos números pares 
-            6 = Contador Regressivo 
-            7 = Fatorial
-            8 = Numeros primos
-            9 = Array
+            01 = Calculadora 
+            02 = Conversor 
+            03 = Validador
+            04 = Tabuada
+            05 = Soma dos números pares 
+            06 = Contador Regressivo 
+            07 = Fatorial
+            08 = Numeros Primos
+            09 = Array
             10 = Media de notas
-            11 = Sair
+            11 = Pares de array
+            12 = Sair
             """); // Esse sistema de quebra de linhas funciona apenas no java 15+
         escolha = leia.nextInt();
 
@@ -79,11 +81,15 @@ public class Main {
             	System.out.println(media);
             	break;
             case 11:
+            	ArrayPares pares = new ArrayPares();
+            	System.out.println(pares);
+            	break;
+            case 12:
             	break;
             default:
                 System.out.println("Programa não encontrado");
                 break;
             }
-       } while (escolha != 11);
+       } while (escolha != 12);
     }
 }
