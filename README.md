@@ -46,6 +46,7 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 | 11 | Números Primos                | Eficiencia + Lógica     		   | 🟢 Concluído |
 | 12 | Array                         | Array + Lógica     		       | 🟢 Concluído |
 | 12 | Média de Notas                | Array, POO e Lógica		       | 🟢 Concluído |
+| 13 | Pares em Array                | Array, POO e Switch		       | 🟢 Concluído |
 ---
 
 ## Como Executar um Projeto
