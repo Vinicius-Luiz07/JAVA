@@ -7,6 +7,7 @@ import com.POO.Calculadora_POO.Calculadora;
 import com.POO.Contador_Regressivo.ContadorRegressivo;
 import com.POO.Converter_Temperatura_POO.ConverterTemperatura;
 import com.POO.Fatorial.Fatorial_Scanner;
+import com.POO.InverterArray.InverterArray;
 import com.POO.Numeros_Primos.Numeros_Primos;
 import com.POO.Regras_de_voto.ValidadorDeVoto;
 import com.POO.Tabuada_POO.Tabuada;
@@ -18,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         
         Scanner leia = new Scanner(System.in);
-        int escolha = 12; // SWITCH CASE
+        int escolha = 13; // SWITCH CASE
 
         do {
 
@@ -35,7 +36,8 @@ public class Main {
             09 = Array
             10 = Media de notas
             11 = Pares de array
-            12 = Sair
+            12 = Inverter array
+            13 = Sair
             """); // Esse sistema de quebra de linhas funciona apenas no java 15+
         escolha = leia.nextInt();
 
@@ -85,6 +87,10 @@ public class Main {
             	System.out.println(pares);
             	break;
             case 12:
+            	InverterArray inverso = new InverterArray();
+        		System.out.println(inverso);
+            	break;
+            case 13:
             	break;
             default:
                 System.out.println("Programa não encontrado");
