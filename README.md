@@ -49,6 +49,7 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 | 13 | Pares em Array                | Array, POO e Switch		       | 🟢 Concluído |
 | 14 | Inverter um Array             | Array, POO e Método		       | 🟢 Concluído |
 | 15 | Busca de valores              | ArrayList, POO e Lógica		   | 🟢 Concluído |
+| 16 | Jogo de Advinhação			 | Lógica, Random e POO 		   | 🟢 Concluído |
 ---
 
 ## Como Executar um Projeto
