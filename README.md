@@ -53,7 +53,7 @@ Este repositório contém pequenos projetos em Java desenvolvidos para consolida
 | 17 | Sistema de Login			     | Lógica, Map e HashMap		   | 🟠 Andamento |
 ---
 
-## Como Executar um Projeto
+## Como Executar o Projeto
 
 1. Clone o repositório:
    ```bash
