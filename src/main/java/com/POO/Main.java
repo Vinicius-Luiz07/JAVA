@@ -16,12 +16,13 @@ import com.POO.MediaDeNotas.MediaDeNotas;
 import com.POO.ArrayPares.ArrayPares;
 import com.POO.BuscaArray.BuscaArray;
 import com.POO.Advinhacao.GameDivination;
+import com.POO.Login.Escolha;
 
 public class Main {
     public static void main(String[] args) {
         
         Scanner leia = new Scanner(System.in);
-        int escolha = 15; // SWITCH CASE
+        int escolha = 16; // SWITCH CASE
 
         do {
 
@@ -41,7 +42,8 @@ public class Main {
             12 = Inverter array
             13 = Buscar array
             14 = Joguinho
-            15 = Sair
+            15 = Login
+            16 = Sair
             """); // Esse sistema de quebra de linhas funciona apenas no java 15+
         escolha = leia.nextInt();
 
@@ -103,11 +105,15 @@ public class Main {
         		System.out.println(saladaDeFruta);
             	break;
             case 15:
+            	Escolha login = new Escolha();
+            	System.out.println(login);
+            	break;
+            case 16:
             	break;
             default:
                 System.out.println("Programa não encontrado");
                 break;
             }
-       } while (escolha != 15);
+       } while (escolha != 16);
     }
 }
